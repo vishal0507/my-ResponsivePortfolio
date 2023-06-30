@@ -1,6 +1,7 @@
 import React from 'react';
 import './FooterStyles.css';
-import { FaFacebook, FaHackerrank, FaHome, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaHackerrank, FaHome, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -29,9 +30,19 @@ const Footer = () => {
                 <div className='right'>
                     <p>About the social media links</p>
                     <div className='social'>
-                        <FaFacebook size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                        <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                        <FaHackerrank size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+
+                        <Link to="https://github.com/vishal0507" >
+                            <FaGithub size={30} style={{ color: "#fff", marginRight: "2rem" }} />
+                        </Link>
+
+
+                        <Link to="https://www.linkedin.com/in/vishall-jeganath-95199a209/">
+                            <FaLinkedin size={30} style={{ color: "#fff", marginRight: "2rem" }} />
+                        </Link>
+                        <Link to="https://www.hackerrank.com/vishalljeganath?hr_r=1">
+                            <FaHackerrank size={30} style={{ color: "#fff", marginRight: "2rem" }} />
+                        </Link>
+
                     </div>
 
                 </div>

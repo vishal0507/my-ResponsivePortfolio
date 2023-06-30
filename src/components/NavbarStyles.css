@@ -15,9 +15,10 @@
 }
 .nav-menu{
     display: flex;
+    justify-content: space-between;
 }
 .nav-menu li{
-    padding: 0 1rem;
+    padding: 0 7rem;
 }
 .nav-menu li a {
     font-size: 1.2rem;

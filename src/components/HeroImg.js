@@ -3,6 +3,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const HeroImg = () => {
+    const handleContactClick = ()=>{
+        window.location.href = 'mailto: vishalljeganath@gmail.com';
+    }
   return (
     <div className='hero'>
         <div className='mask'>
@@ -14,9 +17,9 @@ const HeroImg = () => {
             <Link to='/Project' className='btn'>
                 Projects
             </Link>
-            <Link to='/Contact' className='btn btn-light'>
+            <button className='btn btn-light' onClick={handleContactClick}>
                 Contact
-            </Link>
+            </button>
         </div>
 
     </div>
