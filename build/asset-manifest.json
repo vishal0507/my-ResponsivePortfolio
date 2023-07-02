@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.040f634a.css",
+    "main.js": "/static/js/main.17441339.js",
+    "static/media/GalleryApplication.png": "/static/media/GalleryApplication.9b3eb621ac8b6e2715c8.png",
+    "static/media/Ecommerceapp.png": "/static/media/Ecommerceapp.1b8e919e9bfc80a6bbc9.png",
+    "static/media/Chatbotapp.png": "/static/media/Chatbotapp.8b819abe175e6741f4f8.png",
+    "index.html": "/index.html",
+    "main.040f634a.css.map": "/static/css/main.040f634a.css.map",
+    "main.17441339.js.map": "/static/js/main.17441339.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.040f634a.css",
+    "static/js/main.17441339.js"
+  ]
+}
