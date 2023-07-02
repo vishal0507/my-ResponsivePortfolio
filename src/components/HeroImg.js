@@ -13,7 +13,7 @@ const HeroImg = () => {
         </div>
         <div className='content'>
             <p>Hi, I'm a Fresher</p>
-            <h1>React Developer</h1>
+            <h1>Software Engineer</h1>
             <Link to='/Project' className='btn'>
                 Projects
             </Link>

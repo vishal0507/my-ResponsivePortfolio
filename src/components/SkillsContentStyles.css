@@ -1,0 +1,28 @@
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.skillContainer__text{
+    color: white;
+    flex: 0.6;
+    max-width: 500px;
+    margin-bottom: 90px;
+    margin-top: 15px;
+    margin-left: 40%;
+    text-align: center;
+}
+.skillContainer__text > h2{
+    margin-bottom: 40px;
+}
+.skillContainer_skillset{
+    font-size: 30px;
+
+}
+.skillContainer_skillset > h4{
+    font-weight: 200;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+

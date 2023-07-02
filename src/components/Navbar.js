@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <div className={color ? "header header-bg" : "header"}>
             <Link path='/'>
-                <h1>Protfolio</h1>
+                <h1>VISHALL JEGANATH</h1>
             </Link>
 
             <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -36,6 +36,9 @@ const Navbar = () => {
                 <li>
 
                     <Link to='/About'>About</Link>
+                </li>
+                <li>
+                    <Link to='/skill'>Skills</Link>
                 </li>
                 <li>
                     <Link to='/Contact'>Contact</Link>
