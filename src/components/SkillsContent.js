@@ -1,6 +1,6 @@
 import React from 'react';
 import './SkillsContentStyles.css';
-import { LinearProgress } from '@mui/material';
+import LinearProgress  from '@material-ui/core/LinearProgress';
 
 
 
